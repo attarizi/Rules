@@ -3,8 +3,7 @@ package rulespackage;
 public class main {
 
 	public static void main(String[] args) {
-		// TODO second
-
+		payment pay = paymentfactory.getpayment(args[0]);
+		System.out.println(pay.toString());
 	}
-
 }
